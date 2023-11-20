@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  /* Above code "font-family" must be changed */
+}
+
+body {
+  margin: 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  /* COLORS */
+  --color-000: #ffffff;
+  --color-100: #fcf8f3;
+  --color-200: #f4f5f7;
+  --color-300: #2ec1ac;
+  --color-400: #b88e2f;
+  --color-500: #e97171;
+  --color-600: #616161;
+  --color-700: #3a3a3a;
+
+  /* BACKGROUND*/
+  --body-background: var(--color-000);
+  --card-background: var(--color-200);
+  --section-background: var(--color-100);
+
+  /* specific colours for buttons*/
+  --button-background: var(--color-100);
+  --button-invert-background: var(--color-000);
+  --button-highlight-background: var(--color-400);
+
+  /* SPECIAL BACKGROUND */
+  --offer-background: var(--color-500);
+  --new-background: var(--color-300);
+
+  /* TEXT COLORS*/
+  --text-color-primary: var(--color-700);
+  --text-color-secondary: var(--color-600);
+  --text-color-tertiary: var(--color-000);
+
+  /* SPACINGS */
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-m: 30px;
+  --margin-l: 40px;
+  --margin-xl: 50px;
+  --margin-xxl: 60px;
+
+  --padding-xs: 10px;
+  --padding-s: 20px;
+  --padding-m: 30px;
+  --padding-l: 40px;
+  --padding-xl: 50px;
+  --padding-xxl: 60px;
+
+  --gap-xs: 10px;
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 40px;
+  --gap-xl: 50px;
+  --gap-xxl: 60px;
+
+  /* BORDER RADIUS */
+  --border-radius: 10px;
+  --border-radius-circle: 100%;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--gap-s);
+  padding: var(--padding-m);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap-s);
+}
