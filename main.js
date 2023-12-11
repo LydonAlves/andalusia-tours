@@ -459,9 +459,10 @@ const inputPriceFilter = () => {
   })
 
   checkPrice.addEventListener('touchstart', () => {
-    checkPrice.classList.add = 'selected'
+    checkPrice.classList.toggle('selected')
+    console.log(checkPrice)
     setTimeout(() => {
-      checkPrice.classList.remove = 'selected'
+      checkPrice.classList.toggle('selected')
     }, 200)
   })
 
