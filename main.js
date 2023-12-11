@@ -461,9 +461,11 @@ const inputPriceFilter = () => {
   checkPrice.addEventListener('touchstart', () => {
     checkPrice.classList.toggle('selected')
     console.log(checkPrice)
-    setTimeout(() => {
-      checkPrice.classList.toggle('selected')
-    }, 200)
+    checkPrice.addEventListener('touchend', () => {
+      setTimeout(() => {
+        checkPrice.classList.toggle('selected')
+      }, 200)
+    })
   })
 
   buttonDiv.append(checkPrice)
