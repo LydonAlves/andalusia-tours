@@ -350,6 +350,11 @@ const applyFilters = () => {
       })
   }
 
+  checkButton.addEventListener('touchstart', () => {
+    checkButton.style.backgroundColor = 'red'
+    setTimeout(() => {}, 500)
+  })
+
   checkButton.onclick = () => {
     let priceValue = userPrice.value
     const newUserPrice = parseInt(priceValue)
@@ -479,8 +484,9 @@ const filterByProvider = (filterByProvider) => {
 
   chosenProvider.addEventListener('touchstart', () => {
     chosenProvider.classList.toggle('selected')
-    //Parece que no funciona en "inspeccionar", pero en el mobil si que funciona
   })
+
+  //!------------------------------------------
 
   buttons.forEach((button) => {
     if (button.classList.contains(classToCheck)) {
@@ -560,7 +566,7 @@ const clearfilters = () => {
   })
 }
 
-const mobileFilters = () => {
+const mobileFiltersHide = () => {
   const filters = document.querySelector('.filter')
   const menuBurguer = document.querySelector('.menuBurguer ')
 
@@ -575,7 +581,7 @@ const mobileFilters = () => {
 
 header()
 main()
-mobileFilters()
+mobileFiltersHide()
 provinceFilter()
 inputPriceFilter(printTours)
 providersFilter()
