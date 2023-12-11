@@ -425,6 +425,10 @@ main {
     margin-top: var(--margin-xs);
   }
 
+  .filterButton:hover {
+    border-color: var(--color-4);
+  }
+
   .provinceFilterDiv,
   .priceFilterDiv {
     height: 30px;
