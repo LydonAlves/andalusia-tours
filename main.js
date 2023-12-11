@@ -350,11 +350,6 @@ const applyFilters = () => {
       })
   }
 
-  checkButton.addEventListener('touchstart', () => {
-    checkButton.style.backgroundColor = 'red'
-    setTimeout(() => {}, 500)
-  })
-
   checkButton.onclick = () => {
     let priceValue = userPrice.value
     const newUserPrice = parseInt(priceValue)
@@ -461,6 +456,13 @@ const inputPriceFilter = () => {
 
   priceFilterInput.addEventListener('change', () => {
     applyFilters()
+  })
+
+  checkPrice.addEventListener('touchstart', () => {
+    checkButton.style.backgroundColor = 'red'
+    setTimeout(() => {
+      yourButton.style.backgroundColor = ''
+    }, 500)
   })
 
   buttonDiv.append(checkPrice)
