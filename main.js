@@ -459,9 +459,9 @@ const inputPriceFilter = () => {
   })
 
   checkPrice.addEventListener('touchstart', () => {
-    checkButton.style.backgroundColor = 'red'
+    checkPrice.style.backgroundColor = 'red'
     setTimeout(() => {
-      yourButton.style.backgroundColor = ''
+      checkPrice.style.backgroundColor = ''
     }, 500)
   })
 
