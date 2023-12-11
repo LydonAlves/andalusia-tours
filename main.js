@@ -459,10 +459,10 @@ const inputPriceFilter = () => {
   })
 
   checkPrice.addEventListener('touchstart', () => {
-    checkPrice.style.backgroundColor = 'red'
+    checkPrice.classList.add = 'selected'
     setTimeout(() => {
-      checkPrice.style.backgroundColor = ''
-    }, 500)
+      checkPrice.classList.remove = 'selected'
+    }, 200)
   })
 
   buttonDiv.append(checkPrice)
