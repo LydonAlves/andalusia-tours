@@ -458,15 +458,19 @@ const inputPriceFilter = () => {
     applyFilters()
   })
 
-  checkPrice.addEventListener('touchstart', () => {
-    checkPrice.classList.toggle('selected')
-    console.log(checkPrice)
-    checkPrice.addEventListener('touchend', () => {
-      setTimeout(() => {
-        checkPrice.classList.toggle('selected')
-      }, 200)
+  const handleTouchEvents = (button) => {
+    button.addEventListener('touchstart', () => {
+      button.classList.add('selected')
     })
-  })
+
+    button.addEventListener('touchend', () => {
+      setTimeout(() => {
+        button.classList.remove('selected')
+      }, 600)
+    })
+  }
+  handleTouchEvents(checkPrice)
+  handleTouchEvents(clearInput)
 
   buttonDiv.append(checkPrice)
   buttonDiv.append(clearInput)
@@ -485,13 +489,10 @@ const filterByProvider = (filterByProvider) => {
   const chosenProvider = filterByProvider
   const classToCheck = 'selected'
 
-  chosenProvider.classList.toggle('selected')
-
-  chosenProvider.addEventListener('touchstart', () => {
-    chosenProvider.classList.toggle('selected')
-  })
-
-  //!------------------------------------------
+  // chosenProvider.classList.toggle('selected')
+  // buttons.addEventListener('touch', (button) => {
+  //   button.classList.toggle('selected')
+  // })
 
   buttons.forEach((button) => {
     if (button.classList.contains(classToCheck)) {
