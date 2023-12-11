@@ -142,7 +142,7 @@ const toursList = [
     reviews: 135,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.com/seville-l48/small-group-exclusive-alcazar-tour-tickets-included-t491580/?ranking_uuid=ec08b656-e69e-4418-98ba-2bd225f268c0',
-    image: './assets/tours/JARDINES-ALCÁZAR.JPG'
+    image: './assets/tours/jardines-alcazar.jpg'
   },
   {
     id: 14,
@@ -219,7 +219,7 @@ const toursList = [
     reviews: 25,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/sevilla/excursion-italica/',
-    image: './assets/tours/italica.JPG'
+    image: './assets/tours/italica.jpg'
   }
 ]
 
