@@ -203,8 +203,7 @@ main {
   color: var(--color-8);
 }
 
-.filterButton:hover,
-.filterButton:active {
+.filterButton:hover {
   background-color: var(--color-3);
   cursor: pointer;
 }
