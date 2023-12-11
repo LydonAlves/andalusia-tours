@@ -10,7 +10,7 @@ const toursList = [
     reviews: 60,
     seller: 'Discovering Spain',
     link: 'https://discoveringspain.net/granada/excursion/alpujarra-desde-granada/',
-    image: './assets/tours/alpujarra-roca.jpg'
+    image: './public/tours/alpujarra-roca.jpg'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const toursList = [
     reviews: 42,
     seller: 'Descubre Natura',
     link: 'https://www.descubrenatura.com/destinos-andalucia/sierra-norte-sevilla/',
-    image: './assets/tours/sierra-morena.jpg'
+    image: './public/tours/sierra-morena.jpg'
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const toursList = [
     reviews: 49,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/punta-umbria/paseo-barco-marismas-odiel-atardecer/',
-    image: './assets/tours/odiel-boat-trip.jpeg'
+    image: './public/tours/odiel-boat-trip.jpeg'
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const toursList = [
     reviews: 75,
     seller: 'Discovering Spain',
     link: 'https://discoveringspain.net/granada/excursiones/sierra-nevada-desde-granada/',
-    image: './assets/tours/pampaneira_calle.jpg'
+    image: './public/tours/pampaneira_calle.jpg'
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const toursList = [
     reviews: 150,
     seller: 'Discovering Spain',
     link: 'https://discoveringspain.net/granada/tours/tour-guiado-privado-de-alhambra/',
-    image: './assets/tours/Alhambra.jpg'
+    image: './public/tours/Alhambra.jpg'
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const toursList = [
     reviews: 96,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.es/cordoba-l1689/cordoba-tour-guiado-de-3-horas-de-medina-azahara-t121704/?ranking_uuid=24521440-aaae-4117-bb1e-06d53feba3d8/',
-    image: './assets/tours/medina-azahara.jpg'
+    image: './public/tours/medina-azahara.jpg'
   },
   {
     id: 7,
@@ -76,7 +76,7 @@ const toursList = [
     reviews: 36,
     seller: 'Discovering Spain',
     link: 'https://discoveringspain.net/en/granada-en/day-trips/geopark-from-granada/',
-    image: './assets/tours/gorafe.jpg'
+    image: './public/tours/gorafe.jpg'
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ const toursList = [
     reviews: 54,
     seller: 'Descubre Natura',
     link: 'https://www.descubrenatura.com/pueblos-blancos-ronda/',
-    image: './assets/tours/pueblos-blancos.jpg'
+    image: './public/tours/pueblos-blancos.jpg'
   },
   {
     id: 9,
@@ -98,7 +98,7 @@ const toursList = [
     reviews: 60,
     seller: 'Descubre Natura',
     link: 'https://www.descubrenatura.com/destinos-andalucia/parque-nacional-donana/',
-    image: './assets/tours/donana-np.jpg'
+    image: './public/tours/donana-np.jpg'
   },
   {
     id: 10,
@@ -109,7 +109,7 @@ const toursList = [
     reviews: 80,
     seller: 'Descubre Natura',
     link: 'https://www.descubrenatura.com/destinos-andalucia/caminito-del-rey/',
-    image: './assets/tours/caminito.jpg'
+    image: './public/tours/caminito.jpg'
   },
   {
     id: 11,
@@ -120,7 +120,7 @@ const toursList = [
     reviews: 48,
     seller: 'Descubre Natura',
     link: 'https://www.descubrenatura.com/destinos-andalucia/sierra-aracena/',
-    image: './assets/tours/cave-aracena.jpg'
+    image: './public/tours/cave-aracena.jpg'
   },
   {
     id: 12,
@@ -131,7 +131,7 @@ const toursList = [
     reviews: 30,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.es/cordoba-l1689/alcazar-de-cordoba-ticket-y-tour-oficial-t135381/?ranking_uuid=e4b323dc-65dd-40b2-b677-446173d34f01',
-    image: './assets/tours/alcazar-cordoba.jpg'
+    image: './public/tours/alcazar-cordoba.jpg'
   },
   {
     id: 13,
@@ -142,7 +142,7 @@ const toursList = [
     reviews: 135,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.com/seville-l48/small-group-exclusive-alcazar-tour-tickets-included-t491580/?ranking_uuid=ec08b656-e69e-4418-98ba-2bd225f268c0',
-    image: './assets/tours/jardines-alcazar.jpg'
+    image: './public/tours/jardines-alcazar.jpg'
   },
   {
     id: 14,
@@ -153,7 +153,7 @@ const toursList = [
     reviews: 110,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.es/cordoba-l1689/mezquita-catedral-de-cordoba-tour-guiado-de-2-horas-t131952/?ranking_uuid=8a85534e-8c68-49a6-9c11-32e96c5417a1',
-    image: './assets/tours/cordoba-mezquita.jpg'
+    image: './public/tours/cordoba-mezquita.jpg'
   },
   {
     id: 15,
@@ -164,7 +164,7 @@ const toursList = [
     reviews: 60,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.com/seville-l48/seville-cathedral-and-giralda-tower-tour-t77605/?ranking_uuid=0372db0e-aeae-44d5-8638-7421b16aff3a',
-    image: './assets/tours/sevilla-catedral.jpg'
+    image: './public/tours/sevilla-catedral.jpg'
   },
   {
     id: 16,
@@ -175,7 +175,7 @@ const toursList = [
     reviews: 60,
     seller: 'Get your guide',
     link: 'https://www.getyourguide.com/seville-l48/seville-tapas-taverns-and-history-walking-tour-t240467/?ranking_uuid=a9bd169f-9bb9-4b89-836b-0b56e554db10',
-    image: './assets/tours/torre-oro.jpg'
+    image: './public/tours/torre-oro.jpg'
   },
   {
     id: 17,
@@ -186,7 +186,7 @@ const toursList = [
     reviews: 68,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/granada/visita-albaicin-sacromonte/',
-    image: './assets/tours/albaicin.jpeg'
+    image: './public/tours/albaicin.jpeg'
   },
   {
     id: 18,
@@ -197,7 +197,7 @@ const toursList = [
     reviews: 36,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/cordoba/',
-    image: './assets/tours/cordoba-romanbridge.jpg'
+    image: './public/tours/cordoba-romanbridge.jpg'
   },
   {
     id: 19,
@@ -208,7 +208,7 @@ const toursList = [
     reviews: 54,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/sevilla/visita-guiada-parque-maria-luisa/',
-    image: './assets/tours/plaza-esp-sevilla.jpg'
+    image: './public/tours/plaza-esp-sevilla.jpg'
   },
   {
     id: 20,
@@ -219,7 +219,7 @@ const toursList = [
     reviews: 25,
     seller: 'Civitatis',
     link: 'https://www.civitatis.com/es/sevilla/excursion-italica/',
-    image: './assets/tours/italica.jpg'
+    image: './public/tours/italica.jpg'
   }
 ]
 
@@ -234,12 +234,12 @@ const header = () => {
 
   headerDiv.className = 'headerDiv'
   logoDiv.className = 'logoDiv'
-  busLogo.src = './assets/bus.png'
+  busLogo.src = './public/bus.png'
   busLogo.className = 'bus'
-  nameLogo.src = './assets/logo.png'
+  nameLogo.src = './public/logo.png'
   nameLogo.className = 'logo'
   menuBurguer.className = 'menuBurguer'
-  menuBurguer.src = './assets/menu-burger.png'
+  menuBurguer.src = './public/menu-burger.png'
 
   logoDiv.append(busLogo)
   logoDiv.append(nameLogo)
