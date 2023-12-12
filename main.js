@@ -54,7 +54,7 @@ const toursList = [
     reviews: 150,
     seller: 'Discovering Spain',
     link: 'https://discoveringspain.net/granada/tours/tour-guiado-privado-de-alhambra/',
-    image: '/tours/Alhambra.jpg'
+    image: '/tours/alhambra.jpg'
   },
   {
     id: 6,
@@ -489,10 +489,13 @@ const filterByProvider = (filterByProvider) => {
   const chosenProvider = filterByProvider
   const classToCheck = 'selected'
 
-  // chosenProvider.classList.toggle('selected')
-  // buttons.addEventListener('touch', (button) => {
-  //   button.classList.toggle('selected')
-  // })
+  chosenProvider.classList.toggle('selected')
+
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('touchstart', function () {
+      console.log(this.innerText + 'clicked')
+    })
+  }
 
   buttons.forEach((button) => {
     if (button.classList.contains(classToCheck)) {
@@ -525,6 +528,7 @@ const providersFilter = () => {
   providersTitle.className = 'providersTitle'
   providersInstructions.innerText =
     'Click one or more provider to select and compare. Click them again to unselect'
+  //En version mobil no consigo quitarle el color
   providersInstructions.className = 'instructions'
 
   const provider = toursList.map(function (tours) {

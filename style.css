@@ -462,6 +462,15 @@ main {
     width: 100%;
   }
 
+  .products {
+    gap: var(--gap-m);
+    width: 85svw;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: flex-start;
+    margin-bottom: var(--margin-s);
+  }
+
   .tour-card {
     width: 75svw;
     height: 150px;
